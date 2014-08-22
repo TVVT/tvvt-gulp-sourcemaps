@@ -1,6 +1,6 @@
 {
   "name": "tvvt-gulp-sourcemaps",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Source map support for Gulp.js in Zero",
   "homepage": "http://kevin14.github.io",
   "repository": {
