@@ -203,7 +203,7 @@ module.exports.write = function write(destPath, options) {
 
       //comment = commentFormatter(path.join(path.relative(path.dirname(file.path), file.base), destPath, file.relative) + '.map');
       
-      if (/win/.test(os.platform())) {
+      if (/^win/.test(os.platform())) {
         comment = commentFormatter(path.join(path.relative(path.dirname(file.path), file.base), 
           destPath, 'Projects/'+file.relative.slice(0, file.relative.indexOf('\\')) + '/resource/css/'+path.basename(file.path)) + '.map');
       }else{
